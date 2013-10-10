@@ -9,7 +9,7 @@ Start Yu(Go)Server with output that redirects stdout and stderr to your logfile(
 
 Yu(Go)Server can also be embedded easily; have a look at the unit test. Also supported is the ServeHTTP interface for testing.
 
-- Mulitple host support is accomomplished via the existance of host-named subdirectories (./foo.com for instance).
+- Mulitple host support is accommplished via the existance of host-named subdirectories (./foo.com for instance).
 - Basic template support is accomplished by adding a template_data.json file containing the data object used in parsing. See the test_fixtures directory for an example.
 - Using ApacheBench, she manages over 3900 requests/sec (template parses) on OSX, over 2000 on a Linux Micro EC2 instance on Amazon.
 
