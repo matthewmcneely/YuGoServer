@@ -1,0 +1,10 @@
+{
+	"Message": "Hello World",
+	"Entries": [
+		{"phrase": "Hello world", "lang": "English"},
+		{"phrase": "हैलो दुनिया", "lang": "Hindi"},
+		{"phrase": "你好ा", "lang": "Chinese"},
+		{"phrase": "Ciao mondo", "lang": "Italian"},
+		{"phrase": "Kaixo mundu", "lang": "Basque"}
+	]
+}
