@@ -9,11 +9,11 @@ Start Yu(Go)Server with output that redirects stdout and stderr to your logfile(
 
 Yu(Go)Server can also be embedded easily; have a look at the unit test. Also supported is the ServeHTTP interface for testing.
 
-- Mulitple host support is accommplished via the existence of host-named subdirectories (./foo.com for instance).
+- Multiple host support is accomplished via the existence of host-named folders (./foo.com for instance).
 - Basic template support is accomplished by adding a template_data.json file containing the data object used in parsing. See the test_fixtures directory for an example.
 - Using ApacheBench, YugoServer manages over 3,900 requests/sec (template parses) on OSX, over 2,000 on a Linux Micro EC2 instance on Amazon.
 
-> This software is a very mimimal implementation of HTTP. There are tons of features that *should* be implemented before it would be suitable for production environments.
+> This software is a very minimal implementation of HTTP. There are tons of features that *should* be implemented before it would be suitable for production environments.
 
 Hit me up (matthew.mcneely@gmail.com) for the project files if you want to try it in Eclipse.
 
