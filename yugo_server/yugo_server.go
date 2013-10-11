@@ -3,15 +3,15 @@ package yugo_server
 /*
 	YugoServer. A golang-based minimalistic web server with template support, but no hub caps, no power windows.
 
-	Start with output that redirect stdout and stderr to your logfile(s), like so:
+	Start with output that redirects stdout and stderr to your logfile(s), like so:
 	  $ cd <directory_to_serve_from>
 	  $ ./yugo_server >access.log 2>error.log &
 
-	Mulitple host support is accomomplished via the existance of host-named subdirectories (./foo.com for instance)
+	Multiple host support is accomplished via the existence of host-named subdirectories (./foo.com for instance)
 
 	Basic template support is accomplished by adding a template_data.json file containing the data object used in parsing.
 
-	Using ApacheBench, this subcompact manages over 3900 requests/sec (template parses)
+	Using ApacheBench, this subcompact manages over 3,900 requests/sec (template parses), over 2,000 on a EC2 Micro Linux instance.
 */
 
 import (
