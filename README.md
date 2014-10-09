@@ -15,6 +15,24 @@ Yu(Go)Server can also be embedded easily; have a look at the unit test. Also sup
 
 > This software is a very minimal implementation of HTTP. There are tons of features that *should* be implemented before it would be suitable for production environments.
 
-Hit me up (matthew.mcneely@gmail.com) for the project files if you want to try it in Eclipse.
+Example of running from the command line:
+
+	package main
+	
+	import (
+		"os"
+		"yugo_server"
+	)
+	
+	var server *yugo_server.YugoServer
+	
+	func main() {
+		workingDir, _ := os.Getwd()
+		server = yugo_server.NewServer(8090, workingDir)
+		if err := server.Run(); err != nil {
+			panic(err.Error())
+		}
+	}
+
 
 Made available via an MIT-style license (see the ./LICENSE file)—use this as you see fit.

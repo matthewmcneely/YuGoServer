@@ -26,8 +26,8 @@ import (
 	"regexp"
 	"strconv"
 	"strings"
+	"template_data"
 	"time"
-	"yugo_server/template_data"
 )
 
 type YugoServer struct {
